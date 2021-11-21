@@ -1,8 +1,5 @@
 from django.db import models
 import uuid
-from django.core.validators import MaxValueValidator, MinValueValidator
-from django.db.models.constraints import UniqueConstraint
-from django.db.models.enums import Choices
 # Create your models here
 bloodGroupChoices=(
     ('A+','A+'),
